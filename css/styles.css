@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans&display=swap');
+
+header {
+    width: 1280px;
+    height: 459px;
+    background-image: url('../assets/images/header_background.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 757px;
+    gap: 24px;
+}
+
+#title {
+    width: 313px;
+    height: 112px;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+
+#description { 
+    width: 757px;
+    height: 66px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
+#btn1 {
+    width: 205px;
+    height: 44px;
+    border-radius: 28px;
+}
+
+#btn2 {
+    width: 281px;
+    height: 44px;
+    border-radius: 28px;
+    background: #23272A;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body h2 {
+    width: 329px;
+    height: 270px;
+    top: 10px;
+    left: 623px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #23272A;
+}
+
+body p {
+    width: 348px;
+    height: 88px;
+    top: 296px;
+    left: 623px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #23272A;    
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 971px;
+    height: 394px;
+    top: 499px;
+    left: 154px;
+    gap: 16px;
+}
+
+.section1-img {
+    width: 607px;
+    height: 394px;   
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    width: 971px;
+    height: 394px;
+    top: 499px;
+    left: 154px;
+    gap: 16px;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 971px;
+    height: 394px;
+    top: 499px;
+    left: 154px;
+    gap: 16px;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: row;
+    width: 971px;
+    height: 394px;
+    top: 499px;
+    left: 154px;
+    gap: 16px;
+}
